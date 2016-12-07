@@ -1,0 +1,83 @@
+h1{
+	color: grey;
+	font-size: 170px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav { background-color: grey;
+}
+
+nav li { 
+display: inline-block;
+padding: 10px;
+
+}
+
+a { 
+	color: white;
+	text-decoration: none;
+}
+.underline {
+	text-decoration: underline;
+}
+.first-item {
+	margin-left: 40px; 
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	width: 90%;
+	margin: auto;
+}
+.box1 {
+	display: flex;
+	width: 70%;
+	height: 500px;
+	background-color: red;
+	background-image: url(../images/building.jpg);
+	background-size: cover;
+
+}
+.box2 {
+	display: flex;
+	width: 30%;
+	height: 500px;
+	background-color: purple;
+
+}
+
+.box3 {
+	display: flex;
+	width: 35%;
+	height: 200px;
+	background-color: purple;
+
+}
+
+.box4 {
+	display: flex;
+	width: 35%;
+	height: 200px;
+	background-color: green;
+
+}
+
+.box5 {
+	display: flex;
+	width: 20%;
+	height: 200px;
+	background-color: black;
+
+}
+
+.box6 {
+	display: flex;
+	width: 10%;
+	height: 200px;
+	background-color: pink;
+
+}
+
